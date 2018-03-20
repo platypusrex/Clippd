@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="80f02d98-097e-4f98-a4dc-30f26647533e" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Login.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/routes/Login.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="47" column="32" lean-forward="false" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Posts.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/routes/Posts.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="82">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tabs.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/routes/Tabs.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="withCreatePost.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/src/api/auth/withCreatePost.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+                <marker date="1521479247536" expanded="true" signature="182:444" ph="mutation...{&#10;    createPost (caption: $caption, photo: $photo) {&#10;      id&#10;      createdAt&#10;      updatedAt&#10;      caption&#10;      photoUrl&#10;      author {&#10;        id&#10;        firstName&#10;        lastName&#10;        email&#10;      }&#10;    }&#10;  }" />
+                <marker date="1521479247536" expanded="true" signature="191:227" ph="(...)" />
+                <marker date="1521479247536" expanded="true" signature="202:208" ph="String...String" />
+                <marker date="1521479247536" expanded="true" signature="219:225" ph="Upload...Upload" />
+                <marker date="1521479247536" expanded="true" signature="228:444" ph="{...}" />
+                <marker date="1521479247536" expanded="true" signature="234:244" ph="createPost...createPost" />
+                <marker date="1521479247536" expanded="true" signature="234:440" ph="createPost...{&#10;      id&#10;      createdAt&#10;      updatedAt&#10;      caption&#10;      photoUrl&#10;      author {&#10;        id&#10;        firstName&#10;        lastName&#10;        email&#10;      }&#10;    }" />
+                <marker date="1521479247536" expanded="true" signature="245:279" ph="(...)" />
+                <marker date="1521479247536" expanded="true" signature="246:253" ph="caption...caption" />
+                <marker date="1521479247536" expanded="true" signature="265:270" ph="photo...photo" />
+                <marker date="1521479247536" expanded="true" signature="280:440" ph="{...}" />
+                <marker date="1521479247536" expanded="true" signature="288:290" ph="id...id" />
+                <marker date="1521479247536" expanded="true" signature="297:306" ph="createdAt...createdAt" />
+                <marker date="1521479247536" expanded="true" signature="313:322" ph="updatedAt...updatedAt" />
+                <marker date="1521479247536" expanded="true" signature="329:336" ph="caption...caption" />
+                <marker date="1521479247536" expanded="true" signature="343:351" ph="photoUrl...photoUrl" />
+                <marker date="1521479247536" expanded="true" signature="358:364" ph="author...author" />
+                <marker date="1521479247536" expanded="true" signature="358:434" ph="author...{&#10;        id&#10;        firstName&#10;        lastName&#10;        email&#10;      }" />
+                <marker date="1521479247536" expanded="true" signature="365:434" ph="{...}" />
+                <marker date="1521479247536" expanded="true" signature="375:377" ph="id...id" />
+                <marker date="1521479247536" expanded="true" signature="386:395" ph="firstName...firstName" />
+                <marker date="1521479247536" expanded="true" signature="404:412" ph="lastName...lastName" />
+                <marker date="1521479247536" expanded="true" signature="421:426" ph="email...email" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Camera.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/routes/Camera.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/routes/index.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Profile.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/routes/Profile.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Register.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/routes/Register.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="188" column="36" lean-forward="false" selection-start-line="188" selection-start-column="36" selection-end-line="188" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckToken.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/routes/CheckToken.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Loading.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/shared/components/Loading.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="66" column="22" lean-forward="false" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>CustomButton</find>
+      <find>startAnimation</find>
+      <find>major</find>
+      <find>hasLoopSupport</find>
+      <find>animation</find>
+      <find>progress</find>
+      <find>history.push</find>
+      <find>animationDuration</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/client/src</dir>
+      <dir>$PROJECT_DIR$/client/src/routes</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/client/src/shared/components/indicators/ball-indicator/styles.ts" />
+        <option value="$PROJECT_DIR$/client/src/shared/components/indicators/indicator/index.tsx" />
+        <option value="$PROJECT_DIR$/client/src/shared/components/indicators/dot-indicator/styles.ts" />
+        <option value="$PROJECT_DIR$/client/src/shared/components/indicators/ball-indicator/index.tsx" />
+        <option value="$PROJECT_DIR$/client/src/shared/components/indicators/dot-indicator/index.tsx" />
+        <option value="$PROJECT_DIR$/client/src/shared/components/indicators/skype-indicator/styles.ts" />
+        <option value="$PROJECT_DIR$/client/src/shared/components/indicators/skype-indicator/index.tsx" />
+        <option value="$PROJECT_DIR$/client/src/shared/components/indicators/wave-indicator/styles.ts" />
+        <option value="$PROJECT_DIR$/client/src/shared/components/indicators/wave-indicator/index.tsx" />
+        <option value="$PROJECT_DIR$/client/src/shared/components/indicators/bar-indicator/styles.ts" />
+        <option value="$PROJECT_DIR$/client/src/shared/components/BarIndicator.tsx" />
+        <option value="$PROJECT_DIR$/client/src/shared/components/indicators/bar-indicator/index.tsx" />
+        <option value="$PROJECT_DIR$/client/src/styles/shared/MaterialIndicatorStyles.ts" />
+        <option value="$PROJECT_DIR$/client/src/styles/shared/PacmanIndicatorStyles.ts" />
+        <option value="$PROJECT_DIR$/client/src/styles/shared/PulseIndicatorStyles.ts" />
+        <option value="$PROJECT_DIR$/client/src/styles/shared/UIActivityIndicatorStyles.ts" />
+        <option value="$PROJECT_DIR$/client/src/api/auth/withRegister.ts" />
+        <option value="$PROJECT_DIR$/client/src/api/auth/withLogin.ts" />
+        <option value="$PROJECT_DIR$/client/src/api/auth/withRefreshToken.ts" />
+        <option value="$PROJECT_DIR$/client/src/index.tsx" />
+        <option value="$PROJECT_DIR$/client/src/shared/components/indicators/BallIndicator.tsx" />
+        <option value="$PROJECT_DIR$/client/src/shared/components/indicators/BarIndicator.tsx" />
+        <option value="$PROJECT_DIR$/client/src/shared/components/indicators/DotIndicator.tsx" />
+        <option value="$PROJECT_DIR$/client/src/shared/components/indicators/Indicator.tsx" />
+        <option value="$PROJECT_DIR$/client/src/shared/components/indicators/MaterialIndicator.tsx" />
+        <option value="$PROJECT_DIR$/client/src/shared/components/indicators/PacmanIndicator.tsx" />
+        <option value="$PROJECT_DIR$/client/src/shared/components/indicators/PulseIndicator.tsx" />
+        <option value="$PROJECT_DIR$/client/src/shared/components/indicators/SkypeIndicator.tsx" />
+        <option value="$PROJECT_DIR$/client/src/shared/components/indicators/UIActivityIndicator.tsx" />
+        <option value="$PROJECT_DIR$/client/src/shared/components/indicators/WaveIndicator.tsx" />
+        <option value="$PROJECT_DIR$/client/src/shared/components/Loading.tsx" />
+        <option value="$PROJECT_DIR$/server/src/utils.ts" />
+        <option value="$PROJECT_DIR$/server/src/resolvers/Query.ts" />
+        <option value="$PROJECT_DIR$/server/src/resolvers/Mutation/auth.ts" />
+        <option value="$PROJECT_DIR$/server/src/util/authUtil.ts" />
+        <option value="$PROJECT_DIR$/server/src/resolvers/AuthPayload.ts" />
+        <option value="$PROJECT_DIR$/server/src/util/imageUtil.ts" />
+        <option value="$PROJECT_DIR$/server/database/seed.graphql" />
+        <option value="$PROJECT_DIR$/server/database/datamodel.graphql" />
+        <option value="$PROJECT_DIR$/server/src/resolvers/Mutation/post.ts" />
+        <option value="$PROJECT_DIR$/server/src/schema.graphql" />
+        <option value="$PROJECT_DIR$/client/src/routes/Login.tsx" />
+        <option value="$PROJECT_DIR$/client/src/routes/Register.tsx" />
+        <option value="$PROJECT_DIR$/client/src/routes/CheckToken.tsx" />
+        <option value="$PROJECT_DIR$/client/src/routes/TabsTest.tsx" />
+        <option value="$PROJECT_DIR$/client/src/routes/index.tsx" />
+        <option value="$PROJECT_DIR$/client/src/routes/Camera.tsx" />
+        <option value="$PROJECT_DIR$/client/src/routes/Posts.tsx" />
+        <option value="$PROJECT_DIR$/client/src/routes/Profile.tsx" />
+        <option value="$PROJECT_DIR$/client/src/routes/Tabs.tsx" />
+        <option value="$PROJECT_DIR$/client/src/api/auth/withCreatePost.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/client/node_modules" />
+    <handled-path value="$PROJECT_DIR$/server/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Jade</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="clippd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clippd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clippd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clippd" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clippd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clippd" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clippd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clippd" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clippd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clippd" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clippd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clippd" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clippd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clippd" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clippd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clippd" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clippd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clippd" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clippd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clippd" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="generated" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clippd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clippd" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resolvers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clippd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clippd" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resolvers" type="462c0819:PsiDirectoryNode" />
+              <item name="Mutation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clippd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clippd" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/styles/shared" />
+      <recent name="$PROJECT_DIR$/client/src/shared/components/indicators" />
+      <recent name="$PROJECT_DIR$/client/src/assets/fonts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/shared/components" />
+      <recent name="$PROJECT_DIR$/client/src/assets/fonts" />
+      <recent name="$PROJECT_DIR$/client/src/assets" />
+      <recent name="$PROJECT_DIR$/client/src/shared/containers" />
+      <recent name="$PROJECT_DIR$/client/src/styles/shared" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80f02d98-097e-4f98-a4dc-30f26647533e" name="Default" comment="" />
+      <created>1520396158800</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1520396158800</updated>
+      <workItem from="1520396160374" duration="78558000" />
+      <workItem from="1521118263166" duration="2765000" />
+      <workItem from="1521121978420" duration="12294000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="93617000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <layout>
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22057787" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="GraphQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="GraphQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17829457" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/server/node_modules/aws-sdk/scripts/services-table-generator.js" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/client/src/styles/shared/WaveIndicatorStyles.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/styles/shared/SkypeIndicatorStyles.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/styles/variables/colors.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/styles/shared/DotIndicatorStyles.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/shared/components/BarIndicator.tsx" />
+    <entry file="file://$PROJECT_DIR$/client/src/styles/shared/MaterialIndicatorStyles.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/node_modules/@types/react-native/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="1626" column="13" lean-forward="false" selection-start-line="1626" selection-start-column="13" selection-end-line="1626" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/styles/shared/PulseIndicatorStyles.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/styles/shared/PacmanIndicatorStyles.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/styles/shared/UIActivityIndicatorStyles.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/styles/shared/BarIndicatorStyles.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/shared/components/indicators/BallIndicator.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/shared/components/indicators/BarIndicator.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-997">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/shared/components/indicators/DotIndicator.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-142">
+          <caret line="34" column="77" lean-forward="false" selection-start-line="34" selection-start-column="77" selection-end-line="34" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/shared/components/indicators/MaterialIndicator.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/shared/components/indicators/PacmanIndicator.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-716">
+          <caret line="65" column="8" lean-forward="false" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/shared/components/indicators/PulseIndicator.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-254">
+          <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/shared/components/indicators/SkypeIndicator.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-526">
+          <caret line="46" column="42" lean-forward="false" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/shared/components/indicators/UIActivityIndicator.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-499">
+          <caret line="32" column="79" lean-forward="false" selection-start-line="32" selection-start-column="79" selection-end-line="32" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/shared/components/indicators/WaveIndicator.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-318">
+          <caret line="42" column="84" lean-forward="false" selection-start-line="42" selection-start-column="84" selection-end-line="42" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/api/auth/withRegister.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-183">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/shared/components/indicators/Indicator.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#31#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/resolvers/AuthPayload.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/util/authUtil.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#36#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/resolvers/Mutation/auth.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#35#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/utils.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#35#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/resolvers/Query.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/util/imageUtil.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/generated/prisma.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1832">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/generated/prisma.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="1382" column="2" lean-forward="false" selection-start-line="1382" selection-start-column="2" selection-end-line="1382" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/database/datamodel.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/database/seed.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/schema.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/resolvers/Mutation/post.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#57#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/api/auth/withLogin.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="40" column="86" lean-forward="false" selection-start-line="40" selection-start-column="86" selection-end-line="40" selection-end-column="86" />
+          <folding>
+            <marker date="1520982259147" expanded="true" signature="202:437" ph="mutation...{&#10;    login (email: $email, password: $password) {&#10;      payload {&#10;        token&#10;        user {&#10;          id&#10;        }&#10;      }&#10;      error {&#10;        field&#10;        message&#10;      }&#10;    }&#10;  }" />
+            <marker date="1520982259147" expanded="true" signature="211:248" ph="(...)" />
+            <marker date="1520982259147" expanded="true" signature="220:226" ph="String...String" />
+            <marker date="1520982259147" expanded="true" signature="240:246" ph="String...String" />
+            <marker date="1520982259147" expanded="true" signature="249:437" ph="{...}" />
+            <marker date="1520982259147" expanded="true" signature="255:260" ph="login...login" />
+            <marker date="1520982259147" expanded="true" signature="255:433" ph="login...{&#10;      payload {&#10;        token&#10;        user {&#10;          id&#10;        }&#10;      }&#10;      error {&#10;        field&#10;        message&#10;      }&#10;    }" />
+            <marker date="1520982259147" expanded="true" signature="261:297" ph="(...)" />
+            <marker date="1520982259147" expanded="true" signature="262:267" ph="email...email" />
+            <marker date="1520982259147" expanded="true" signature="277:285" ph="password...password" />
+            <marker date="1520982259147" expanded="true" signature="298:433" ph="{...}" />
+            <marker date="1520982259147" expanded="true" signature="306:313" ph="payload...payload" />
+            <marker date="1520982259147" expanded="true" signature="306:375" ph="payload...{&#10;        token&#10;        user {&#10;          id&#10;        }&#10;      }" />
+            <marker date="1520982259147" expanded="true" signature="314:375" ph="{...}" />
+            <marker date="1520982259147" expanded="true" signature="324:329" ph="token...token" />
+            <marker date="1520982259147" expanded="true" signature="338:342" ph="user...user" />
+            <marker date="1520982259147" expanded="true" signature="338:367" ph="user...{&#10;          id&#10;        }" />
+            <marker date="1520982259147" expanded="true" signature="343:367" ph="{...}" />
+            <marker date="1520982259147" expanded="true" signature="355:357" ph="id...id" />
+            <marker date="1520982259147" expanded="true" signature="382:387" ph="error...error" />
+            <marker date="1520982259147" expanded="true" signature="382:427" ph="error...{&#10;        field&#10;        message&#10;      }" />
+            <marker date="1520982259147" expanded="true" signature="388:427" ph="{...}" />
+            <marker date="1520982259147" expanded="true" signature="398:403" ph="field...field" />
+            <marker date="1520982259147" expanded="true" signature="412:419" ph="message...message" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/shared/components/Loading.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="66" column="22" lean-forward="false" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/routes/Login.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="47" column="32" lean-forward="false" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/api/auth/withRefreshToken.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1520989755079" expanded="true" signature="159:224" ph="mutation...{&#10;    refreshToken {&#10;      token &#10;      userId&#10;    }&#10;  }" />
+            <marker date="1520989755079" expanded="true" signature="168:224" ph="{...}" />
+            <marker date="1520989755079" expanded="true" signature="174:186" ph="refreshToken...refreshToken" />
+            <marker date="1520989755079" expanded="true" signature="174:220" ph="refreshToken...{&#10;      token &#10;      userId&#10;    }" />
+            <marker date="1520989755079" expanded="true" signature="187:220" ph="{...}" />
+            <marker date="1520989755079" expanded="true" signature="195:200" ph="token...token" />
+            <marker date="1520989755079" expanded="true" signature="208:214" ph="userId...userId" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/routes/Register.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="188" column="36" lean-forward="false" selection-start-line="188" selection-start-column="36" selection-end-line="188" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/routes/CheckToken.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/routes/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/node_modules/@types/react-native-tab-view/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="211" column="12" lean-forward="false" selection-start-line="211" selection-start-column="12" selection-end-line="211" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/routes/TabsTest.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/routes/Camera.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/routes/Posts.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/routes/Profile.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/routes/Tabs.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/api/auth/withCreatePost.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <marker date="1521479247536" expanded="true" signature="182:444" ph="mutation...{&#10;    createPost (caption: $caption, photo: $photo) {&#10;      id&#10;      createdAt&#10;      updatedAt&#10;      caption&#10;      photoUrl&#10;      author {&#10;        id&#10;        firstName&#10;        lastName&#10;        email&#10;      }&#10;    }&#10;  }" />
+            <marker date="1521479247536" expanded="true" signature="191:227" ph="(...)" />
+            <marker date="1521479247536" expanded="true" signature="202:208" ph="String...String" />
+            <marker date="1521479247536" expanded="true" signature="219:225" ph="Upload...Upload" />
+            <marker date="1521479247536" expanded="true" signature="228:444" ph="{...}" />
+            <marker date="1521479247536" expanded="true" signature="234:244" ph="createPost...createPost" />
+            <marker date="1521479247536" expanded="true" signature="234:440" ph="createPost...{&#10;      id&#10;      createdAt&#10;      updatedAt&#10;      caption&#10;      photoUrl&#10;      author {&#10;        id&#10;        firstName&#10;        lastName&#10;        email&#10;      }&#10;    }" />
+            <marker date="1521479247536" expanded="true" signature="245:279" ph="(...)" />
+            <marker date="1521479247536" expanded="true" signature="246:253" ph="caption...caption" />
+            <marker date="1521479247536" expanded="true" signature="265:270" ph="photo...photo" />
+            <marker date="1521479247536" expanded="true" signature="280:440" ph="{...}" />
+            <marker date="1521479247536" expanded="true" signature="288:290" ph="id...id" />
+            <marker date="1521479247536" expanded="true" signature="297:306" ph="createdAt...createdAt" />
+            <marker date="1521479247536" expanded="true" signature="313:322" ph="updatedAt...updatedAt" />
+            <marker date="1521479247536" expanded="true" signature="329:336" ph="caption...caption" />
+            <marker date="1521479247536" expanded="true" signature="343:351" ph="photoUrl...photoUrl" />
+            <marker date="1521479247536" expanded="true" signature="358:364" ph="author...author" />
+            <marker date="1521479247536" expanded="true" signature="358:434" ph="author...{&#10;        id&#10;        firstName&#10;        lastName&#10;        email&#10;      }" />
+            <marker date="1521479247536" expanded="true" signature="365:434" ph="{...}" />
+            <marker date="1521479247536" expanded="true" signature="375:377" ph="id...id" />
+            <marker date="1521479247536" expanded="true" signature="386:395" ph="firstName...firstName" />
+            <marker date="1521479247536" expanded="true" signature="404:412" ph="lastName...lastName" />
+            <marker date="1521479247536" expanded="true" signature="421:426" ph="email...email" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

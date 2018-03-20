@@ -1,0 +1,12 @@
+export const primary = '#108ee9';
+export const danger = '#f04134';
+export const success = '#87d068';
+export const warning = '#ff7f11';
+export const borderLight = '#f2f2f2';
+export const borderDark = '#d8d8d8';
+export const textLight = '#9a9a9a';
+export const textDark = '#5a5a5a';
+export const headingLight = '#c8c8c8';
+export const headingDark = '#2a2a2a';
+export const disabled = '#f7f7f7';
+export const disableBorder = '#d9d9d9';
