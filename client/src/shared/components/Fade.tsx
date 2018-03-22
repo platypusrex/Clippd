@@ -57,6 +57,7 @@ export class Fade extends React.Component<ParentProps, State> {
     };
 
     const combinedStyle = [containerStyle, style];
+
     return (
       <Animated.View style={this.state.visible ? combinedStyle : containerStyle} {...rest}>
         {this.state.visible ? children : null}
