@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { CustomText } from './CustomText';
+import { Text } from './Text';
 
 interface Props {
   children: string;
@@ -13,6 +13,6 @@ export const H1: React.SFC<Props> = (props) => {
   const fontWeight = weight ? weight : 'medium';
 
   return (
-    <CustomText weight={fontWeight} style={defaultStyles}>{children}</CustomText>
+    <Text weight={fontWeight} style={defaultStyles}>{children}</Text>
   );
 };
