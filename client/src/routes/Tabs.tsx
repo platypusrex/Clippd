@@ -5,7 +5,7 @@ import { Dimensions, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { Posts } from './Posts';
 import { Profile } from './Profile';
-import { Camera } from './Camera';
+import { Share } from './Share';
 import {
   TabViewAnimated,
   NavigationState,
@@ -31,7 +31,7 @@ const initialState: State = {
   index: 0,
   routes: [
     {key: 'posts', icon: 'md-images', color: '#F44336'},
-    {key: 'camera', icon: 'md-camera', color: '#4CAF50'},
+    {key: 'share', icon: 'md-camera', color: '#4CAF50'},
     {key: 'profile', icon: 'md-person', color: '#3F51B5'},
   ],
 };
@@ -49,7 +49,7 @@ const TabsComponent: React.SFC<Props> = (props) => {
 
   const renderIcon = ({route}: any) => <Ionicons name={route.icon} size={24} style={styles.icon} />;
   const renderFooter = (srProps: SceneRendererProps) => <TabBar {...srProps} renderIcon={renderIcon}/>;
-  const renderScene = SceneMap({posts: Posts, camera: Camera, profile: Profile});
+  const renderScene = SceneMap({posts: Posts, share: Share, profile: Profile});
 
   return (
     <TabViewAnimated
