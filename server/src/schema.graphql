@@ -1,4 +1,4 @@
-# import Post from "./generated/prisma.graphql"
+# import Post, PostWhereInput, PostOrderByInput from "./generated/prisma.graphql"
 
 scalar Upload
 
@@ -7,6 +7,15 @@ type Query {
   drafts: [Post!]!
   post(id: ID!): Post
   me: User
+  posts(
+    where: PostWhereInput,
+    orderBy: PostOrderByInput,
+    skip: Int,
+    after: String,
+    before: String,
+    first: Int,
+    last: Int
+  ): [Post!]
 }
 
 type Mutation {
