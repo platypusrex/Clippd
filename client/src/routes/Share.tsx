@@ -7,7 +7,7 @@ import { Button } from '../shared/components/Button';
 import { Navbar } from '../shared/components/Navbar';
 import { Fade } from '../shared/components/Fade';
 import { H2 } from '../shared/components/H2';
-import { Camera } from '../shared/components/Camera';
+import { CameraForm } from '../shared/components/Camera';
 import { withState, WithStateProps } from '../shared/containers/withState';
 
 interface State {
@@ -59,7 +59,7 @@ const ShareComponent: React.SFC<Props> = (props) => {
 
   const CameraView = (
     <Fade visible={state.cameraView} style={{flex: 1}}>
-      <Camera/>
+      <CameraForm/>
     </Fade>
   );
 
