@@ -1,7 +1,7 @@
 import * as bcrypt from 'bcryptjs';
 import { Context, createToken, getUserId } from '../../util/authUtil';
 
-export const auth = {
+export const authMutation = {
   async refreshToken(parent, args, ctx: Context, info) {
     const userId = getUserId(ctx);
 
