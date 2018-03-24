@@ -3,13 +3,13 @@ import { graphql, QueryProps } from 'react-apollo';
 import { User } from '../../../../server/src/generated/prisma';
 
 const createPostMutation = gql`
-  mutation ($caption: String!, $photo: Upload!) {
-    createPost (caption: $caption, photo: $photo) {
+  mutation ($caption: String!, $picture: Upload!) {
+    createPost (caption: $caption, picture: $picture) {
       id
       createdAt
       updatedAt
       caption
-      photoUrl
+      pictureUrl
       author {
         id
         firstName
@@ -26,23 +26,24 @@ interface CreatePostMutation {
     createdAt: Date;
     updatedAt: Date;
     caption: string;
-    photoUrl: string;
+    pictureUrl: string;
     author: User
   }
 }
 
 interface CreatePostInput {
   caption: string;
-  photo: any;
+  picture: any;
 }
 
-interface WithCreatePostProps {
+export interface WithCreatePostProps {
   createPost: (input: CreatePostInput) => Promise<QueryProps<CreatePostMutation>>;
 }
 
 export const withCreatePost = graphql(createPostMutation, {
   props: ({ownProps, mutate}) => ({
     createPost: (variables: CreatePostInput) => {
+      console.log(variables);
       const options = {
         mutation: createPostMutation,
         variables
