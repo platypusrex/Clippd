@@ -8,16 +8,17 @@ import { setContext } from 'apollo-link-context';
 import { withState, WithStateProps } from './shared/containers/withState';
 import { getAuthToken } from './shared/util/authUtil';
 import { Routes } from './routes';
+import { apiBasePath } from './shared/constants/apiConstants';
 const apolloUploadClient = require('apollo-upload-client');
 
 // Custom Fonts
 const montserratRegular = require('./assets/fonts/Montserrat-Regular.ttf');
 const montserratMedium = require('./assets/fonts/Montserrat-Medium.ttf');
-const montserratBold= require('./assets/fonts/Montserrat-Bold.ttf');
-const montserratExtraBold= require('./assets/fonts/Montserrat-ExtraBold.ttf');
-const montserratBlack= require('./assets/fonts/Montserrat-Black.ttf');
+const montserratBold = require('./assets/fonts/Montserrat-Bold.ttf');
+const montserratExtraBold = require('./assets/fonts/Montserrat-ExtraBold.ttf');
+const montserratBlack = require('./assets/fonts/Montserrat-Black.ttf');
 
-const uploadLink = apolloUploadClient.createUploadLink({uri: 'http://10.0.0.84:4000'});
+const uploadLink = apolloUploadClient.createUploadLink({uri: apiBasePath});
 const authLink = setContext(async (_, {headers}) => {
   const token = await getAuthToken();
 
@@ -71,7 +72,6 @@ export const App = compose<Props, State>(
     componentWillMount: async function () {
       const fontAssets = getFonts();
       await Promise.all(fontAssets.map(font => Font.loadAsync(font)));
-
       this.props.setState(ss => ({...ss, isReady: true}));
     }
   })
