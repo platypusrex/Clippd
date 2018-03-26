@@ -1,34 +1,66 @@
 import * as React from 'react';
-import { compose } from 'recompose';
-import { Text, View } from 'react-native';
-import { containerStyles as styles } from '../styles/shared/ContainerStyles';
+import { branch, compose, renderComponent, withProps } from 'recompose';
+import { Dimensions, FlatList, View } from 'react-native';
+import { Text } from '../shared/components/Text';
+import { containerStyles } from '../styles/shared/ContainerStyles';
 import { RouteComponentProps, withRouter } from 'react-router';
-import { Button } from '../shared/components/Button';
 import { Navbar } from '../shared/components/Navbar';
+import { withAllPosts, WithAllPostsProps } from '../api/post/withAllPosts';
+import { Post } from '../../../server/src/generated/prisma';
+import { Loading } from '../shared/components/Loading';
+import { pictureUrlPath } from '../shared/util/pictureUrlPathUtil';
+import { Card } from '../shared/components/Card/Card';
+import moment from 'moment';
 
-type Props = RouteComponentProps<{}>;
+const {height} = Dimensions.get('window');
+
+interface WithProps {
+  posts: Post[];
+}
+
+type Props =
+  RouteComponentProps<{}> &
+  WithAllPostsProps &
+  WithProps;
 
 const PostsComponent: React.SFC<Props> = (props) => {
   return (
-    <View>
+    <View style={{height: height - 65}}>
       <Navbar
         body={{title: 'Posts'}}
         rightButton={{icon: {name: 'md-camera', size: 28}, handler: () => console.log('button clicked')}}
       />
-      <View style={[styles.centered, styles.paddingLg]}>
-        <Text>Welcome to the '/posts' route!</Text>
-        <Button
-          type="primary"
-          full={true}
-          buttonText="sign off"
-          onPress={() => props.history.push('/login')}
-          style={{marginTop: 10}}
-        />
-      </View>
+
+      <FlatList
+        data={props.posts}
+        numColumns={1}
+        keyExtractor={item => item.id}
+        style={[containerStyles.paddingSm]}
+        renderItem={({item}) => item.pictureUrl ? (
+          <Card image={pictureUrlPath(item.pictureUrl)} style={{marginBottom: 15}}>
+            <View>
+              <Text weight="bold">{item.author.firstName} {item.author.lastName}</Text>
+              <Text>{moment(item.createdAt).fromNow()}</Text>
+            </View>
+
+            <View style={{marginTop: 15}}>
+              <Text>{item.caption}</Text>
+            </View>
+          </Card>
+        ) : null}
+      />
     </View>
   );
 };
 
 export const Posts = compose<Props, {}>(
-  withRouter
+  withRouter,
+  withAllPosts,
+  withProps((props: Props) => {
+    const posts = props.data.posts || [];
+    return {posts};
+  }),
+  branch((props: Props) => props.data.loading || !props.posts.length,
+    renderComponent(() => <Loading/>)
+  )
 )(PostsComponent);
