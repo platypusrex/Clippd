@@ -95,7 +95,7 @@ class CameraFormComponent extends React.Component<Props, State> {
       this.setState(ss => ({
         ...ss,
         caption: undefined,
-        photoUri: undefined,
+        pictureUri: undefined,
         isSubmitting: false,
         isPictureLoading: false
       }));
