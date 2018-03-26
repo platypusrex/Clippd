@@ -8,7 +8,7 @@ export const sharedNavbar = StyleSheet.create({
     left: 0,
     right: 0,
     zIndex: 100,
-    backgroundColor: '#efefef',
+    backgroundColor: '#fff',
     display: 'flex',
     justifyContent: 'center',
     paddingLeft: 15,
@@ -29,7 +29,7 @@ export const sharedNavbar = StyleSheet.create({
   },
   title: {
     fontWeight: '800',
-    fontSize: 18,
+    fontSize: 20,
   },
   leftButton: {
     flex: 1,
