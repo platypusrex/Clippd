@@ -1,3 +1,4 @@
+import * as express from 'express';
 import { GraphQLServer } from 'graphql-yoga'
 import { Prisma } from './generated/prisma'
 import resolvers from './resolvers'
@@ -13,6 +14,8 @@ const server = new GraphQLServer({
       debug: true, // log all GraphQL queries & mutations
     }),
   }),
-})
+});
 
-server.start(() => console.log(`Server is running on http://localhost:4000`))
+server.express.use('/images', express.static('images'));
+
+server.start(() => console.log(`Server is running on http://localhost:4000`));
