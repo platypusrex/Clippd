@@ -4,7 +4,7 @@ import * as fonts from '../../styles/variables/fonts';
 
 
 interface Props {
-  children: string;
+  children: string | string[];
   style?: {};
   weight?: 'regular' | 'medium' | 'bold' | 'extra-bold' | 'black';
 }
