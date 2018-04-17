@@ -1,17 +1,10 @@
 import { StyleSheet } from 'react-native';
+import { borderLight } from '../variables/colors';
 
 export const cardStyles = StyleSheet.create({
   wrapper: {
-    borderWidth: 1,
-    borderColor: '#e9e9e9',
-    borderStyle: 'solid',
     borderRadius: 5,
     overflow: 'hidden',
-    shadowColor: '#9a9a9a',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.8,
-    shadowRadius: 2,
-    elevation: 2,
   },
   image: {
     width: '100%',
@@ -20,7 +13,14 @@ export const cardStyles = StyleSheet.create({
     borderTopRightRadius: 5
   },
   bodyWrapper: {
-    padding: 15
+    padding: 15,
+    borderLeftWidth: 1,
+    borderRightWidth: 1,
+    borderBottomWidth: 1,
+    borderBottomRightRadius: 5,
+    borderBottomLeftRadius: 5,
+    borderColor: borderLight,
+    borderStyle: 'solid',
   }
 });
 
