@@ -35,9 +35,8 @@ const PostsComponent: React.SFC<Props> = (props) => {
         data={props.posts}
         numColumns={1}
         keyExtractor={item => item.id}
-        style={[containerStyles.paddingSm]}
         renderItem={({item}) => item.pictureUrl ? (
-          <Card image={pictureUrlPath(item.pictureUrl)} style={{marginBottom: 15}}>
+          <Card image={pictureUrlPath(item.pictureUrl)} style={{marginLeft: 15, marginRight: 15, marginTop: 15, marginBottom: 5}}>
             <View>
               <Text weight="bold">{item.author.firstName} {item.author.lastName}</Text>
               <Text>{moment(item.createdAt).fromNow()}</Text>
