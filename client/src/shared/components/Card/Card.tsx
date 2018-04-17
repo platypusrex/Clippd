@@ -2,9 +2,18 @@ import * as React from 'react';
 import { Image, TouchableOpacity, View } from 'react-native';
 import { cardStyles as styles, fullImageCardStyles } from '../../../styles/shared/CardStyles';
 import { containerStyles } from '../../../styles/shared/ContainerStyles';
+import { CardHeader } from './CardHeader';
+
+interface CardHeaderProps {
+  title: string | string[];
+  subTitle?: string | string[];
+  titleStyle?: {};
+  subTitleStyle?: {}
+}
 
 interface Props {
   isTouchable?: boolean;
+  header?: CardHeaderProps;
   children?: string | React.ReactNode;
   bodyStyle?: {};
   image?: string;
@@ -13,25 +22,33 @@ interface Props {
 }
 
 export const Card: React.SFC<Props> = (props) => {
-  const {isTouchable, image, style, children} = props;
+  const {isTouchable, image, style, header, children} = props;
 
   const Card = (
     <View style={containerStyles.full}>
+      {header &&
+      <CardHeader
+        title={header.title}
+        titleStyle={header.titleStyle}
+        subTitle={header.subTitle}
+        subTitleStyle={header.subTitleStyle}
+      />}
+
       {image && <ImageCard {...props}/>}
 
-      <CardBody style={styles.bodyWrapper}>
+      {!image && <CardBody style={styles.bodyWrapper}>
         {children}
-      </CardBody>
+      </CardBody>}
     </View>
   );
 
   return isTouchable ? (
     <TouchableOpacity style={[styles.wrapper, style]}>
-      <ImageCard {...props}/>
+      {Card}
     </TouchableOpacity>
   ) : (
     <View style={[styles.wrapper, style]}>
-      <ImageCard {...props}/>
+      {Card}
     </View>
   );
 };
