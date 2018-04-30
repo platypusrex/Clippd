@@ -1,9 +1,8 @@
 import * as React from 'react';
 import { compose, lifecycle } from 'recompose';
 import { Font } from 'expo'
+import { ApolloClient, InMemoryCache } from 'apollo-boost';
 import { ApolloProvider } from 'react-apollo';
-import { ApolloClient } from 'apollo-client';
-import { InMemoryCache } from 'apollo-cache-inmemory';
 import { setContext } from 'apollo-link-context';
 import { withState, WithStateProps } from './shared/containers/withState';
 import { getAuthToken } from './shared/util/authUtil';
