@@ -2,7 +2,7 @@ import gql from 'graphql-tag';
 import { graphql, QueryProps } from 'react-apollo';
 import { Post } from '../../../../server/src/generated/prisma';
 
-const allPostsQuery = gql`
+export const allPostsQuery = gql`
   query {
     posts {
       id
@@ -11,6 +11,7 @@ const allPostsQuery = gql`
       caption
       pictureUrl
       author {
+        id
         firstName
         lastName
       }
