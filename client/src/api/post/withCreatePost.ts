@@ -1,6 +1,7 @@
 import gql from 'graphql-tag';
 import { graphql, QueryProps } from 'react-apollo';
 import { User } from '../../../../server/src/generated/prisma';
+import { allPostsQuery } from './withAllPosts';
 
 const createPostMutation = gql`
   mutation ($caption: String!, $picture: Upload!) {
@@ -43,10 +44,12 @@ export interface WithCreatePostProps {
 export const withCreatePost = graphql(createPostMutation, {
   props: ({ownProps, mutate}) => ({
     createPost: (variables: CreatePostInput) => {
-      console.log(variables);
       const options = {
         mutation: createPostMutation,
-        variables
+        variables,
+        refetchQueries: [
+          {query: allPostsQuery}
+        ],
       };
 
       if (!mutate) {
